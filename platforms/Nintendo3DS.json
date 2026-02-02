@@ -28,8 +28,8 @@
     {
       "name": "Azahar",
       "uniqueId": "3ds.azahar",
-      "description": "Supported extensions: cci, cxi, zcci, zcxi.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cci|cxi|zcci|zcxi|cia)$",
+      "description": "Supported extensions: 3ds, app, cci, cxi, zcci, zcxi.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|app|cci|cxi|zcci|zcxi|cia)$",
       "amStartArguments": "-n io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
