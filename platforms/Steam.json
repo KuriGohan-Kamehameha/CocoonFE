@@ -32,6 +32,16 @@
       "extra": ""
     },
     {
+      "name": "GameHub Lite RC",
+      "uniqueId": "steam.gamehub.lite.rc",
+      "description": "GameHub Lite (RC)",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a emuready.gamehub.lite.LAUNCH_GAME\n -n emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "GameHub Lite (Antutu)",
       "uniqueId": "steam.gamehub.lite.antutu",
       "description": "GameHub Lite",
