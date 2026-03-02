@@ -1,7 +1,11 @@
 import argparse, os, re, json, traceback
 
 def sortDictionaryKeysByListOfStrings(dictionary, listOfStrings):
-    sortedKeys = sorted(dictionary.keys(), key=lambda key: listOfStrings.index(key))
+    orderMap = {key: index for index, key in enumerate(listOfStrings)}
+    sortedKeys = sorted(
+        dictionary.keys(),
+        key=lambda key: (orderMap.get(key, len(orderMap)), key)
+    )
     return {key: dictionary[key] for key in sortedKeys}
 
 def normalizeScraperSourceList(scraperSourceList):
