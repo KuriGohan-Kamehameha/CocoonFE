@@ -4,10 +4,45 @@ def sortDictionaryKeysByListOfStrings(dictionary, listOfStrings):
     sortedKeys = sorted(dictionary.keys(), key=lambda key: listOfStrings.index(key))
     return {key: dictionary[key] for key in sortedKeys}
 
+def normalizeScraperSourceList(scraperSourceList):
+    if not isinstance(scraperSourceList, list):
+        return []
+
+    normalized = []
+    seen = set()
+    for source in scraperSourceList:
+        if not isinstance(source, str):
+            continue
+        source = source.strip()
+        if source == "" or source in seen:
+            continue
+        seen.add(source)
+        normalized.append(source)
+
+    libretroSources = [source for source in normalized if source.startswith("LIBRETRO:")]
+    dsessSources = [source for source in normalized if source.startswith("DSESS:")]
+    otherSources = [source for source in normalized if not source.startswith("LIBRETRO:") and not source.startswith("DSESS:")]
+    return libretroSources + dsessSources + otherSources
+
+def filterScraperSourceList(scraperSourceList, scraperMode):
+    if scraperMode == "none":
+        return []
+    if scraperMode == "libretro":
+        return [source for source in scraperSourceList if source.startswith("LIBRETRO:")]
+    if scraperMode == "dsess":
+        return [source for source in scraperSourceList if source.startswith("DSESS:")]
+    return scraperSourceList
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-p", "--path", default=".")
 parser.add_argument("-rev", "--increase_revisions", action='store_true', default=False)
 parser.add_argument("-c", "--curated", default="./curated")
+parser.add_argument(
+    "--scraper-mode",
+    choices=["keep", "none", "libretro", "dsess"],
+    default="keep",
+    help="Toggle scraper sources: keep all, disable all, or keep only LIBRETRO/DSESS sources."
+)
 args = parser.parse_args()
 
 # Constants
@@ -57,6 +92,7 @@ databaseVersion = 14
 basePath = args.path
 increaseRevisionNumber = args.increase_revisions
 curatedPath = args.curated
+scraperMode = args.scraper_mode
 curatedDirectory = os.path.join(basePath,curatedPath)
 
 if not os.path.exists(curatedDirectory):
@@ -105,6 +141,15 @@ for f in files:
 
                 if platformEntityPortable.get('retroAchievementsAlias') is not None:
                     del platformSharable['platform']['retroAchievementsAlias']
+
+                originalScraperSourceList = platformEntityPortable.get('scraperSourceList', [])
+                normalizedScraperSourceList = normalizeScraperSourceList(originalScraperSourceList)
+                finalScraperSourceList = filterScraperSourceList(normalizedScraperSourceList, scraperMode)
+                platformSharable['platform']['scraperSourceList'] = finalScraperSourceList
+                platformEntityPortable = platformSharable['platform']
+
+                if originalScraperSourceList != finalScraperSourceList:
+                    print(f"    Updated scraperSourceList ({len(originalScraperSourceList)} -> {len(finalScraperSourceList)}) with mode '{scraperMode}'.")
 
                 platformSharable['platform'] = sortDictionaryKeysByListOfStrings(platformEntityPortable, platformEntityPortableKeysOrder)
 
