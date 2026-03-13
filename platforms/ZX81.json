@@ -5,7 +5,7 @@
     "name": "ZX 81",
     "uniqueId": "zx81",
     "shortname": "zx81",
-    "description": null,
+    "description": "ZX 81 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sinclair - ZX 81",

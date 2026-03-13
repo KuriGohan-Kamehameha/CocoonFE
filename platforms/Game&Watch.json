@@ -5,7 +5,7 @@
     "name": "Game & Watch",
     "uniqueId": "gameandwatch",
     "shortname": "gameandwatch",
-    "description": null,
+    "description": "Game & Watch platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:MAME",

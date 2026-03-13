@@ -5,7 +5,7 @@
     "name": "Philips Videopac+ G7400",
     "uniqueId": "videopac",
     "shortname": "videopac",
-    "description": null,
+    "description": "Philips Videopac+ G7400 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Philips - Videopac+",

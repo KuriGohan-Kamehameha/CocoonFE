@@ -5,7 +5,7 @@
     "name": "Book Reader",
     "uniqueId": "ebook",
     "shortname": "ebook",
-    "description": null,
+    "description": "Book Reader platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 2,

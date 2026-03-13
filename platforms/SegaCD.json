@@ -5,7 +5,7 @@
     "name": "Sega CD",
     "uniqueId": "segacd",
     "shortname": "segacd",
-    "description": null,
+    "description": "Sega CD platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Mega-CD - Sega CD",

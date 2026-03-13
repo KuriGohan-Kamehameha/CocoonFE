@@ -5,7 +5,7 @@
     "name": "TurboGrafx-16",
     "uniqueId": "tg16",
     "shortname": "tg16",
-    "description": null,
+    "description": "TurboGrafx-16 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:NEC - PC Engine - TurboGrafx 16",

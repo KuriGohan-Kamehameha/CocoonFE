@@ -5,7 +5,7 @@
     "name": "Flashback Game Engine",
     "uniqueId": "flashback",
     "shortname": "flashback",
-    "description": null,
+    "description": "Flashback Game Engine platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Flashback"

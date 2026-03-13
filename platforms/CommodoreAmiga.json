@@ -5,7 +5,7 @@
     "name": "Commodore Amiga",
     "uniqueId": "amiga",
     "shortname": "amiga",
-    "description": null,
+    "description": "Commodore Amiga platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Commodore - Amiga",

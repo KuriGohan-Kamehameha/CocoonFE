@@ -5,7 +5,7 @@
     "name": "Atari 7800",
     "uniqueId": "atari7800",
     "shortname": "atari7800",
-    "description": null,
+    "description": "Atari 7800 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - 7800",

@@ -5,7 +5,7 @@
     "name": "Sega Saturn",
     "uniqueId": "saturn",
     "shortname": "saturn",
-    "description": null,
+    "description": "Sega Saturn platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Saturn",

@@ -5,7 +5,7 @@
     "name": "Palm OS",
     "uniqueId": "palm",
     "shortname": "palm",
-    "description": null,
+    "description": "Palm OS platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 0,

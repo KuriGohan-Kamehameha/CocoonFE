@@ -5,7 +5,7 @@
     "name": "PlayStation Portable",
     "uniqueId": "psp",
     "shortname": "psp",
-    "description": null,
+    "description": "PlayStation Portable platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation Portable",

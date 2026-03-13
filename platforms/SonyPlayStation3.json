@@ -5,7 +5,7 @@
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
     "shortname": "ps3",
-    "description": null,
+    "description": "Sony PlayStation 3 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation 3",

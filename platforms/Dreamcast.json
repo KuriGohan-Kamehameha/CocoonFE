@@ -5,7 +5,7 @@
     "name": "Dreamcast",
     "uniqueId": "dreamcast",
     "shortname": "dreamcast",
-    "description": null,
+    "description": "Dreamcast platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Dreamcast",

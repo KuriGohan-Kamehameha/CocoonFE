@@ -5,7 +5,7 @@
     "name": "Sega Genesis",
     "uniqueId": "genesis",
     "shortname": "genesis",
-    "description": null,
+    "description": "Sega Genesis platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Mega Drive - Genesis",

@@ -5,7 +5,7 @@
     "name": "Quake II Game Engine",
     "uniqueId": "quake2",
     "shortname": "quake2",
-    "description": null,
+    "description": "Quake II Game Engine platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Quake II"

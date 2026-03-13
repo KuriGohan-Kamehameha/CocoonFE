@@ -5,7 +5,7 @@
     "name": "Commodore - PLUS/4",
     "uniqueId": "plus4",
     "shortname": "plus4",
-    "description": null,
+    "description": "Commodore - PLUS/4 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Commodore - Plus-4",

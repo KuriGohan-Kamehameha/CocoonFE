@@ -5,7 +5,7 @@
     "name": "Atari 2600",
     "uniqueId": "atari2600",
     "shortname": "atari2600",
-    "description": null,
+    "description": "Atari 2600 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - 2600",

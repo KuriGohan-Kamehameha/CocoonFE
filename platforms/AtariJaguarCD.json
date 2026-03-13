@@ -5,7 +5,7 @@
     "name": "Atari Jaguar CD",
     "uniqueId": "atarijaguarcd",
     "shortname": "atarijaguarcd",
-    "description": null,
+    "description": "Atari Jaguar CD platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - Jaguar",

@@ -5,7 +5,7 @@
     "name": "Cave Story Game Engine",
     "uniqueId": "cavestory",
     "shortname": "cavestory",
-    "description": null,
+    "description": "Cave Story Game Engine platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Cave Story"

@@ -5,7 +5,7 @@
     "name": "PICO-8",
     "uniqueId": "pico8",
     "shortname": "pico8",
-    "description": null,
+    "description": "PICO-8 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "RAW:PICO-8"

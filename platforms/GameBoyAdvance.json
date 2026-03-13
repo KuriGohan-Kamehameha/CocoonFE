@@ -5,7 +5,7 @@
     "name": "Game Boy Advance",
     "uniqueId": "gba",
     "shortname": "gba",
-    "description": null,
+    "description": "Game Boy Advance platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Game Boy Advance",

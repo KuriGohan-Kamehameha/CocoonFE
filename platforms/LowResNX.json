@@ -5,7 +5,7 @@
     "name": "LowRes NX",
     "uniqueId": "lowresnx",
     "shortname": "lowresnx",
-    "description": null,
+    "description": "LowRes NX platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:LowRes NX"

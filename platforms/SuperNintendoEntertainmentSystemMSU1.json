@@ -5,7 +5,7 @@
     "name": "Super Nintendo Entertainment System - MSU-1",
     "uniqueId": "snesmsu1",
     "shortname": "snesmsu1",
-    "description": null,
+    "description": "Super Nintendo Entertainment System - MSU-1 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Super Nintendo Entertainment System",

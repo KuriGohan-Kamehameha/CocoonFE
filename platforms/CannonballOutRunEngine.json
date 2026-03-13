@@ -5,7 +5,7 @@
     "name": "Cannonball OutRun Engine",
     "uniqueId": "cannonball",
     "shortname": "cannonball",
-    "description": null,
+    "description": "Cannonball OutRun Engine platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Cannonball"

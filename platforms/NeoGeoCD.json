@@ -5,7 +5,7 @@
     "name": "Neo Geo CD",
     "uniqueId": "neogeocd",
     "shortname": "neogeocd",
-    "description": null,
+    "description": "Neo Geo CD platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:SNK - Neo Geo CD",

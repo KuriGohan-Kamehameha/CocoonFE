@@ -5,7 +5,7 @@
     "name": "Atari Lynx",
     "uniqueId": "atarilynx",
     "shortname": "atarilynx",
-    "description": null,
+    "description": "Atari Lynx platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - Lynx",

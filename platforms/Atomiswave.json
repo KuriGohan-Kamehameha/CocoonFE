@@ -5,7 +5,7 @@
     "name": "Atomiswave",
     "uniqueId": "atomiswave",
     "shortname": "atomiswave",
-    "description": null,
+    "description": "Atomiswave platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Atomiswave",

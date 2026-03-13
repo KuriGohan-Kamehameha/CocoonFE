@@ -5,7 +5,7 @@
     "name": "DOS",
     "uniqueId": "dos",
     "shortname": "dos",
-    "description": null,
+    "description": "DOS platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:DOS",

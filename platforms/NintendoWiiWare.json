@@ -5,7 +5,7 @@
     "name": "Nintendo WiiWare",
     "uniqueId": "wiiware",
     "shortname": "wiiware",
-    "description": null,
+    "description": "Nintendo WiiWare platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Wii",

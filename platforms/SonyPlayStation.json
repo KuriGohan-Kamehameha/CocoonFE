@@ -5,7 +5,7 @@
     "name": "Sony PlayStation",
     "uniqueId": "psx",
     "shortname": "psx",
-    "description": null,
+    "description": "Sony PlayStation platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation",

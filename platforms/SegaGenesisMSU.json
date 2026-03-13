@@ -5,7 +5,7 @@
     "name": "Sega Genesis - MSU",
     "uniqueId": "genesismsu",
     "shortname": "genesismsu",
-    "description": null,
+    "description": "Sega Genesis - MSU platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Mega Drive - Genesis",

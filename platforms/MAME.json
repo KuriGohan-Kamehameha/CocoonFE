@@ -5,7 +5,7 @@
     "name": "Arcade (MAME)",
     "uniqueId": "mame",
     "shortname": "mame",
-    "description": null,
+    "description": "Arcade (MAME) platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:MAME",

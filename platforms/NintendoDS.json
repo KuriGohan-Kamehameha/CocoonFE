@@ -5,7 +5,7 @@
     "name": "Nintendo DS",
     "uniqueId": "nds",
     "shortname": "nds",
-    "description": null,
+    "description": "Nintendo DS platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Nintendo DS",

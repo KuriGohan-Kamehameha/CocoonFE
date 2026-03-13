@@ -5,7 +5,7 @@
     "name": "SuperGrafx",
     "uniqueId": "supergrafx",
     "shortname": "supergrafx",
-    "description": null,
+    "description": "SuperGrafx platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:NEC - PC Engine SuperGrafx"

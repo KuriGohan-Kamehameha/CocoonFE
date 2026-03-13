@@ -5,7 +5,7 @@
     "name": "Vectrex",
     "uniqueId": "vectrex",
     "shortname": "vectrex",
-    "description": null,
+    "description": "Vectrex platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:GCE - Vectrex",

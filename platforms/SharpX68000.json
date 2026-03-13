@@ -5,7 +5,7 @@
     "name": "Sharp X68000",
     "uniqueId": "x68000",
     "shortname": "x68000",
-    "description": null,
+    "description": "Sharp X68000 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sharp - X68000",

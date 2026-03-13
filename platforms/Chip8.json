@@ -5,7 +5,7 @@
     "name": "CHIP-8",
     "uniqueId": "chip8",
     "shortname": "chip8",
-    "description": null,
+    "description": "CHIP-8 platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 0,

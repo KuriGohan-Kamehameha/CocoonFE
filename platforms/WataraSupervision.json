@@ -5,7 +5,7 @@
     "name": "Watara Supervision",
     "uniqueId": "supervision",
     "shortname": "supervision",
-    "description": null,
+    "description": "Watara Supervision platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Watara - Supervision",

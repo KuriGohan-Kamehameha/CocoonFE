@@ -5,7 +5,7 @@
     "name": "Nintendo Wii",
     "uniqueId": "wii",
     "shortname": "wii",
-    "description": null,
+    "description": "Nintendo Wii platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Wii",

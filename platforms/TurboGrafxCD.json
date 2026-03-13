@@ -5,7 +5,7 @@
     "name": "TurboGrafx-CD",
     "uniqueId": "tg-cd",
     "shortname": "tg-cd",
-    "description": null,
+    "description": "TurboGrafx-CD platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:NEC - PC Engine CD - TurboGrafx-CD",
