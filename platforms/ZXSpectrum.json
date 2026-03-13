@@ -5,7 +5,7 @@
     "name": "ZX Spectrum",
     "uniqueId": "zxspectrum",
     "shortname": "zxspectrum",
-    "description": null,
+    "description": "ZX Spectrum platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sinclair - ZX Spectrum",

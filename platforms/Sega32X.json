@@ -5,7 +5,7 @@
     "name": "Sega 32X",
     "uniqueId": "sega32x",
     "shortname": "sega32x",
-    "description": null,
+    "description": "Sega 32X platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - 32X",

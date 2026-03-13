@@ -5,7 +5,7 @@
     "name": "Sega Pico",
     "uniqueId": "pico",
     "shortname": "pico",
-    "description": null,
+    "description": "Sega Pico platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - PICO",

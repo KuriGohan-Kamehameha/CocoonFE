@@ -5,7 +5,7 @@
     "name": "NEC PC-FX",
     "uniqueId": "pcfx",
     "shortname": "pcfx",
-    "description": null,
+    "description": "NEC PC-FX platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:NEC - PC-FX",

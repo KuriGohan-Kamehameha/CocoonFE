@@ -5,7 +5,7 @@
     "name": "DOOM Game Engine",
     "uniqueId": "doom",
     "shortname": "doom",
-    "description": null,
+    "description": "DOOM Game Engine platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:DOOM"

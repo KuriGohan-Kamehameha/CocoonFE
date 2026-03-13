@@ -5,7 +5,7 @@
     "name": "Commodore 64",
     "uniqueId": "c64",
     "shortname": "c64",
-    "description": null,
+    "description": "Commodore 64 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Commodore - 64",

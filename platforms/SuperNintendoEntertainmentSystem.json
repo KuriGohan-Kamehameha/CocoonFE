@@ -5,7 +5,7 @@
     "name": "Super Nintendo Entertainment System",
     "uniqueId": "snes",
     "shortname": "snes",
-    "description": null,
+    "description": "Super Nintendo Entertainment System platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Super Nintendo Entertainment System",

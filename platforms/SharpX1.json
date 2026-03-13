@@ -5,7 +5,7 @@
     "name": "Sharp X1",
     "uniqueId": "x1",
     "shortname": "x1",
-    "description": null,
+    "description": "Sharp X1 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sharp - X1",

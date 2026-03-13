@@ -5,7 +5,7 @@
     "name": "Apple II",
     "uniqueId": "apple2",
     "shortname": "apple2",
-    "description": null,
+    "description": "Apple II platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 0,

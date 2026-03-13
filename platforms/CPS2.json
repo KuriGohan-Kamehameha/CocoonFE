@@ -5,7 +5,7 @@
     "name": "CP System II",
     "uniqueId": "cps2",
     "shortname": "cps2",
-    "description": null,
+    "description": "CP System II platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:FBNeo - Arcade Games",

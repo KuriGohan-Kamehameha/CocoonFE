@@ -5,7 +5,7 @@
     "name": "Magnavox Odyssey 2",
     "uniqueId": "odyssey2",
     "shortname": "odyssey2",
-    "description": null,
+    "description": "Magnavox Odyssey 2 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Magnavox - Odyssey2",

@@ -5,7 +5,7 @@
     "name": "VIC-20",
     "uniqueId": "vic20",
     "shortname": "vic20",
-    "description": null,
+    "description": "VIC-20 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Commodore - VIC-20",

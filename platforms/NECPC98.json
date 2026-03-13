@@ -5,7 +5,7 @@
     "name": "NEC PC-98",
     "uniqueId": "pc98",
     "shortname": "pc98",
-    "description": null,
+    "description": "NEC PC-98 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:NEC - PC-98",

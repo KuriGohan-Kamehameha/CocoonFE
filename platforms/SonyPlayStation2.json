@@ -5,7 +5,7 @@
     "name": "Sony PlayStation 2",
     "uniqueId": "ps2",
     "shortname": "ps2",
-    "description": null,
+    "description": "Sony PlayStation 2 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation 2",

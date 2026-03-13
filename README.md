@@ -79,21 +79,28 @@
 
 ### First-Time Setup Wizard
 
+1. Launch Cocoon and grant the requested storage/media permissions.
+2. Choose your preferred organization mode:
+  - **Smart Folders** (recommended): auto-detects platforms and creates smart folders.
+  - **Manual Mode**: adds detected ROMs directly so you can organize manually.
+3. Select your ROM root folder.
+4. Start the first library scan (optional subfolder scanning is supported).
+5. Open platform settings to choose emulator apps/players per platform.
+
 ---
 
 ## Setups (Optional but recommended):
-   - **SteamGridDB**: Get artwork for your games
-     - Visit [steamgriddb.com/profile/preferences/api](https://www.steamgriddb.com/profile/preferences/api)
-     - Create an API key
-   - **ScreenScraper.fr**: Get game metadata and/or artwork
-     - Register at [screenscraper.fr](https://www.screenscraper.fr/)
-     - Optional - works with guest API without login
-
-2. **Organization Mode**:
+1. **SteamGridDB**: Get artwork for your games
+  - Visit [steamgriddb.com/profile/preferences/api](https://www.steamgriddb.com/profile/preferences/api)
+  - Create an API key
+2. **ScreenScraper.fr**: Get game metadata and/or artwork
+  - Register at [screenscraper.fr](https://www.screenscraper.fr/)
+  - Optional - works with guest API without login
+3. **Organization Mode**:
    - **Smart Folders** (Recommended): Cocoon auto-detects platforms and creates smart folders from which you can create homescreen shortcuts
    - **Manual Mode**: Cocoon puts all detected ROMs onto your homescreen to be organised yourself (Smart Folders can still be manually created)
 
-3. **ROM Folders**:
+4. **ROM Folders**:
    - Browse to your ROM root folder
    - Cocoon will scan for games automatically with optional subfolder scanning
 

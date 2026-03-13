@@ -5,7 +5,7 @@
     "name": "TIC-80",
     "uniqueId": "tic80",
     "shortname": "tic80",
-    "description": null,
+    "description": "TIC-80 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:TIC-80"

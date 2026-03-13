@@ -5,7 +5,7 @@
     "name": "Video Player",
     "uniqueId": "videos",
     "shortname": "videos",
-    "description": null,
+    "description": "Video Player platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 2,

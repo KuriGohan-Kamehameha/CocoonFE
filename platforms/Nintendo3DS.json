@@ -5,7 +5,7 @@
     "name": "Nintendo 3DS",
     "uniqueId": "n3ds",
     "shortname": "n3ds",
-    "description": null,
+    "description": "Nintendo 3DS platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Nintendo 3DS",

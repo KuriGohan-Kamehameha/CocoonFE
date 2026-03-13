@@ -5,7 +5,7 @@
     "name": "ColecoVision",
     "uniqueId": "colecovision",
     "shortname": "colecovision",
-    "description": null,
+    "description": "ColecoVision platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Coleco - ColecoVision",

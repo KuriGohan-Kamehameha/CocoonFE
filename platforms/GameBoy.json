@@ -5,7 +5,7 @@
     "name": "Game Boy",
     "uniqueId": "gb",
     "shortname": "gb",
-    "description": null,
+    "description": "Game Boy platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Game Boy",

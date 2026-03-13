@@ -5,7 +5,7 @@
     "name": "Atari ST",
     "uniqueId": "atarist",
     "shortname": "atarist",
-    "description": null,
+    "description": "Atari ST platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - ST",

@@ -5,7 +5,7 @@
     "name": "Uzebox",
     "uniqueId": "uzebox",
     "shortname": "uzebox",
-    "description": null,
+    "description": "Uzebox platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Uzebox"

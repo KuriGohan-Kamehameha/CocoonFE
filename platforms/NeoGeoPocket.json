@@ -5,7 +5,7 @@
     "name": "NeoGeo Pocket",
     "uniqueId": "ngp",
     "shortname": "ngp",
-    "description": null,
+    "description": "NeoGeo Pocket platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:SNK - Neo Geo Pocket",

@@ -5,7 +5,7 @@
     "name": "Arcadia 2001",
     "uniqueId": "arcadia",
     "shortname": "arcadia",
-    "description": null,
+    "description": "Arcadia 2001 platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 0,

@@ -5,7 +5,7 @@
     "name": "ScummVM",
     "uniqueId": "scummvm",
     "shortname": "scummvm",
-    "description": null,
+    "description": "ScummVM platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:ScummVM"

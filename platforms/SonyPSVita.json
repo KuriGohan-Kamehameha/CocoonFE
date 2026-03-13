@@ -5,7 +5,7 @@
     "name": "Sony PS Vita",
     "uniqueId": "psvita",
     "shortname": "psvita",
-    "description": null,
+    "description": "Sony PS Vita platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation Vita",

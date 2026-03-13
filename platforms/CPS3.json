@@ -5,7 +5,7 @@
     "name": "CP System III",
     "uniqueId": "cps3",
     "shortname": "cps3",
-    "description": null,
+    "description": "CP System III platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:FBNeo - Arcade Games",

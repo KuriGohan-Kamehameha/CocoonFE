@@ -5,7 +5,7 @@
     "name": "Amstrad CPC",
     "uniqueId": "amstradcpc",
     "shortname": "amstradcpc",
-    "description": null,
+    "description": "Amstrad CPC platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Amstrad - CPC",

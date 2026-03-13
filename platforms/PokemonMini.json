@@ -5,7 +5,7 @@
     "name": "Pokemon Mini",
     "uniqueId": "pokemini",
     "shortname": "pokemini",
-    "description": null,
+    "description": "Pokemon Mini platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Pokemon Mini",

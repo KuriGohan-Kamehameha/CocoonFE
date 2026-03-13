@@ -5,7 +5,7 @@
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
     "shortname": "ndsi",
-    "description": null,
+    "description": "Nintendo DSi platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Nintendo DS",

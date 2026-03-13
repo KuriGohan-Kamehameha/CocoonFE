@@ -5,7 +5,7 @@
     "name": "Fairchild Channel F",
     "uniqueId": "channelf",
     "shortname": "channelf",
-    "description": null,
+    "description": "Fairchild Channel F platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Fairchild - Channel F",

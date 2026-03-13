@@ -5,7 +5,7 @@
     "name": "Interton VC 4000",
     "uniqueId": "vc4000",
     "shortname": "vc4000",
-    "description": null,
+    "description": "Interton VC 4000 platform profile for Cocoon. Metadata scraping sources are not configured for this platform.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [],
     "boxArtAspectRatioId": 0,

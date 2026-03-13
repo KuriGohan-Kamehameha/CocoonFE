@@ -5,7 +5,7 @@
     "name": "Virtual Boy",
     "uniqueId": "virtualboy",
     "shortname": "virtualboy",
-    "description": null,
+    "description": "Virtual Boy platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Virtual Boy",

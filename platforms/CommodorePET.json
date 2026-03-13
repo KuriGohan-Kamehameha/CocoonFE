@@ -5,7 +5,7 @@
     "name": "Commodore - PET",
     "uniqueId": "pet",
     "shortname": "pet",
-    "description": null,
+    "description": "Commodore - PET platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Commodore - PET",

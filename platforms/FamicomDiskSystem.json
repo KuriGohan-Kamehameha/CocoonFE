@@ -5,7 +5,7 @@
     "name": "Famicom Disk System",
     "uniqueId": "fds",
     "shortname": "fds",
-    "description": null,
+    "description": "Famicom Disk System platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Family Computer Disk System",

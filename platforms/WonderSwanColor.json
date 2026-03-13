@@ -5,7 +5,7 @@
     "name": "WonderSwan Color",
     "uniqueId": "wonderswancolor",
     "shortname": "wonderswancolor",
-    "description": null,
+    "description": "WonderSwan Color platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Bandai - WonderSwan Color",

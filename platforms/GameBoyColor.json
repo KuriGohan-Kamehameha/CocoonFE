@@ -5,7 +5,7 @@
     "name": "Game Boy Color",
     "uniqueId": "gbc",
     "shortname": "gbc",
-    "description": null,
+    "description": "Game Boy Color platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Game Boy Color",

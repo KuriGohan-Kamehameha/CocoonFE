@@ -5,7 +5,7 @@
     "name": "Nintendo 64",
     "uniqueId": "n64",
     "shortname": "n64",
-    "description": null,
+    "description": "Nintendo 64 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Nintendo 64",

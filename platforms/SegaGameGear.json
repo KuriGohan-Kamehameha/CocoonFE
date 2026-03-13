@@ -5,7 +5,7 @@
     "name": "Sega Game Gear",
     "uniqueId": "gamegear",
     "shortname": "gamegear",
-    "description": null,
+    "description": "Sega Game Gear platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Game Gear",

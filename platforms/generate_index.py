@@ -7,7 +7,7 @@ categoriesNames = {
     "rp2_plus": "RP2+"
 }
 
-regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
+regex = re.compile(r"^(?!(?:\._|\.).*).*\.json$")
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 files.sort()
@@ -18,8 +18,11 @@ try:
     categories += [f for f in os.listdir(categoriesDir)]
     categories.sort()
 
-except Exception:
-    pass
+except FileNotFoundError:
+    print(f"Categories directory '{categoriesDir}' not found; skipping category index entries.")
+except Exception as e:
+    print(f"Failed to read categories from '{categoriesDir}': {e}")
+    raise
 
 index = {
     "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",

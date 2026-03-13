@@ -5,7 +5,7 @@
     "name": "WonderSwan",
     "uniqueId": "wonderswan",
     "shortname": "wonderswan",
-    "description": null,
+    "description": "WonderSwan platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Bandai - WonderSwan",

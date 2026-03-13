@@ -5,7 +5,7 @@
     "name": "Nintendo Entertainment System",
     "uniqueId": "nes",
     "shortname": "nes",
-    "description": null,
+    "description": "Nintendo Entertainment System platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - Nintendo Entertainment System",

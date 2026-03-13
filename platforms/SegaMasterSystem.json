@@ -5,7 +5,7 @@
     "name": "Sega Master System",
     "uniqueId": "mastersystem",
     "shortname": "mastersystem",
-    "description": null,
+    "description": "Sega Master System platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Master System - Mark III",

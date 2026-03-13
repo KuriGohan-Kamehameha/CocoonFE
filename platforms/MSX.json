@@ -5,7 +5,7 @@
     "name": "MSX",
     "uniqueId": "msx",
     "shortname": "msx",
-    "description": null,
+    "description": "MSX platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Microsoft - MSX",

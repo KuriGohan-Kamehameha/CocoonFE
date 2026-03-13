@@ -5,7 +5,7 @@
     "name": "GameCube",
     "uniqueId": "gc",
     "shortname": "gc",
-    "description": null,
+    "description": "GameCube platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Nintendo - GameCube",

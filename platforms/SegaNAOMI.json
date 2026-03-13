@@ -5,7 +5,7 @@
     "name": "Sega Naomi",
     "uniqueId": "naomi",
     "shortname": "naomi",
-    "description": null,
+    "description": "Sega Naomi platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin|chd)$",
     "scraperSourceList": [
       "LIBRETRO:Sega - Naomi",

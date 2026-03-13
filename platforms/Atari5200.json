@@ -5,7 +5,7 @@
     "name": "Atari 5200",
     "uniqueId": "atari5200",
     "shortname": "atari5200",
-    "description": null,
+    "description": "Atari 5200 platform profile for Cocoon.",
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
       "LIBRETRO:Atari - 5200",
