@@ -1,0 +1,10 @@
+# Local reverse-engineering workspace symlink
+reverse-engineered
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+*.swo
