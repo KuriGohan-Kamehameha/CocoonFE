@@ -987,10 +987,48 @@
 
     sget-object v2, Landroidx/compose/ui/Alignment;->Companion:Landroidx/compose/ui/Alignment$Companion;
 
+    sget-object v3, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {v3}, Lrip/moth/cocoonshell/data/AppState;->isSingleScreenMode()Landroidx/compose/runtime/MutableState;
+
+    move-result-object v3
+
+    invoke-interface {v3}, Landroidx/compose/runtime/MutableState;->getValue()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/Boolean;
+
+    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v3
+
+    if-nez v3, :cond_dock_bottom_center
+
+    sget-object v3, Lrip/moth/cocoonshell/core/di/ServiceLocator;->INSTANCE:Lrip/moth/cocoonshell/core/di/ServiceLocator;
+
+    invoke-virtual {v3}, Lrip/moth/cocoonshell/core/di/ServiceLocator;->provideSettingsRepository()Lrip/moth/cocoonshell/data/repository/SettingsRepository;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lrip/moth/cocoonshell/data/repository/SettingsRepository;->getSwapScreens()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_dock_bottom_center
+
+    invoke-virtual {v2}, Landroidx/compose/ui/Alignment$Companion;->getTopCenter()Landroidx/compose/ui/Alignment;
+
+    move-result-object v2
+
+    goto :goto_dock_align
+
+    :cond_dock_bottom_center
     invoke-virtual {v2}, Landroidx/compose/ui/Alignment$Companion;->getBottomCenter()Landroidx/compose/ui/Alignment;
 
     move-result-object v2
 
+    :goto_dock_align
     invoke-interface {v0, v1, v2}, Landroidx/compose/foundation/layout/BoxScope;->align(Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Alignment;)Landroidx/compose/ui/Modifier;
 
     move-result-object v1

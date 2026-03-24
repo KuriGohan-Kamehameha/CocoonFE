@@ -7325,6 +7325,23 @@
 
     move-result v0
 
+    const/4 v1, 0x4
+
+    if-lt v0, v1, :cond_clamp_min
+
+    const/4 v1, 0x7
+
+    if-le v0, v1, :cond_clamp_done
+
+    const/4 v0, 0x7
+
+    goto :cond_clamp_done
+
+    :cond_clamp_min
+    const/4 v0, 0x4
+
+    :cond_clamp_done
+
     sput v0, Lrip/moth/cocoonshell/data/AppState;->dockSize:I
 
     return-void
@@ -7358,25 +7375,25 @@
 
     move-result v3
 
-    const/4 v4, 0x3
+    const/4 v4, 0x4
 
-    if-gt v3, v4, :cond_not_3
+    if-lt v3, v4, :cond_set_min
 
-    const/4 v3, 0x5
+    const/4 v4, 0x7
 
-    goto :cond_save
+    if-lt v3, v4, :cond_inc
 
-    :cond_not_3
-    const/4 v4, 0x5
-
-    if-gt v3, v4, :cond_not_5
-
-    const/4 v3, 0x7
+    const/4 v3, 0x4
 
     goto :cond_save
 
-    :cond_not_5
-    const/4 v3, 0x3
+    :cond_inc
+    add-int/lit8 v3, v3, 0x1
+
+    goto :cond_save
+
+    :cond_set_min
+    const/4 v3, 0x4
 
     :cond_save
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;

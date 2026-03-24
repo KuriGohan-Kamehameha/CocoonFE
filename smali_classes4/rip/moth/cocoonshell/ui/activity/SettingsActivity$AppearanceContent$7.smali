@@ -1085,7 +1085,7 @@
 
     const-string v2, "Number of slots in dock"
 
-    const-string v5, "Cycle between 3, 5, and 7 slots"
+    const-string v5, "Cycle between 4 and 7 slots"
 
     invoke-static/range {v1 .. v11}, Lrip/moth/cocoonshell/ui/component/settings/SettingsComponentsKt;->NavigationMenuItem-egy_3UM(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZZFLandroidx/compose/runtime/Composer;II)V
 
