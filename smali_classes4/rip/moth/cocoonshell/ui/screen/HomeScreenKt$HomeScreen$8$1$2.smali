@@ -143,9 +143,17 @@
 
     if-eq p2, v0, :cond_5
 
+    const v0, -0x62b42b0d
+
+    if-eq p2, v0, :cond_1a
+
     const v0, 0x6599cbe6
 
     if-eq p2, v0, :cond_1
+
+    const v0, 0x2e04e7
+
+    if-eq p2, v0, :cond_1d
 
     goto/16 :goto_2
 
@@ -408,6 +416,125 @@
     invoke-static {}, Lrip/moth/cocoonshell/audio/AudioHelpersKt;->playSoundScreenSwap()V
 
     .line 302
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->clearNavigationCommand()V
+
+    goto :goto_2
+
+    .line 275
+    :cond_1a
+    const-string p2, "activate"
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1b
+
+    goto :goto_2
+
+    .line 305
+    :cond_1b
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->getShowStatusMenu()Landroidx/compose/runtime/MutableState;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Landroidx/compose/runtime/MutableState;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_f
+
+    .line 306
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->getOnOpenSettings()Lkotlin/jvm/functions/Function0;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1c
+
+    invoke-interface {p1}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    .line 307
+    :cond_1c
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->getShowStatusMenu()Landroidx/compose/runtime/MutableState;
+
+    move-result-object p1
+
+    invoke-static {v1}, Lkotlin/coroutines/jvm/internal/Boxing;->boxBoolean(Z)Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-interface {p1, p2}, Landroidx/compose/runtime/MutableState;->setValue(Ljava/lang/Object;)V
+
+    .line 308
+    invoke-static {}, Lrip/moth/cocoonshell/audio/AudioHelpersKt;->playSoundCloseStatus()V
+
+    .line 309
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->clearNavigationCommand()V
+
+    goto :goto_2
+
+    .line 275
+    :cond_1d
+    const-string p2, "back"
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1e
+
+    goto :goto_2
+
+    .line 319
+    :cond_1e
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->getShowStatusMenu()Landroidx/compose/runtime/MutableState;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Landroidx/compose/runtime/MutableState;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_f
+
+    sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->getShowStatusMenu()Landroidx/compose/runtime/MutableState;
+
+    move-result-object p1
+
+    invoke-static {v1}, Lkotlin/coroutines/jvm/internal/Boxing;->boxBoolean(Z)Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-interface {p1, p2}, Landroidx/compose/runtime/MutableState;->setValue(Ljava/lang/Object;)V
+
+    invoke-static {}, Lrip/moth/cocoonshell/audio/AudioHelpersKt;->playSoundCloseStatus()V
+
     sget-object p1, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
 
     invoke-virtual {p1}, Lrip/moth/cocoonshell/data/AppState;->clearNavigationCommand()V

@@ -2880,7 +2880,7 @@
 
     move/from16 v10, v22
 
-    const/4 v4, 0x6
+    const/4 v4, 0x7
 
     :goto_b
     if-ge v10, v4, :cond_26

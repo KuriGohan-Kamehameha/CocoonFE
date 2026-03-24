@@ -59,7 +59,7 @@
 
     sput-object v0, Lrip/moth/cocoonshell/utils/EsdePlatformAliases;->INSTANCE:Lrip/moth/cocoonshell/utils/EsdePlatformAliases;
 
-    const/16 v0, 0x26
+    const/16 v0, 0x4d
 
     .line 23
     new-array v0, v0, [Lkotlin/Pair;
@@ -525,6 +525,474 @@
 
     aput-object v1, v0, v2
 
+    const-string v1, "ngc"
+
+    const-string v2, "gc"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x26
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gcn"
+
+    const-string v2, "gc"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x27
+
+    aput-object v1, v0, v2
+
+    const-string v1, "nintendogamecube"
+
+    const-string v2, "gc"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x28
+
+    aput-object v1, v0, v2
+
+    const-string v1, "dc"
+
+    const-string v2, "dreamcast"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x29
+
+    aput-object v1, v0, v2
+
+    const-string v1, "ps1"
+
+    const-string v2, "psx"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2a
+
+    aput-object v1, v0, v2
+
+    const-string v1, "playstation"
+
+    const-string v2, "psx"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2b
+
+    aput-object v1, v0, v2
+
+    const-string v1, "playstation1"
+
+    const-string v2, "psx"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2c
+
+    aput-object v1, v0, v2
+
+    const-string v1, "vita"
+
+    const-string v2, "psvita"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2d
+
+    aput-object v1, v0, v2
+
+    const-string v1, "ds"
+
+    const-string v2, "nds"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2e
+
+    aput-object v1, v0, v2
+
+    const-string v1, "nintendods"
+
+    const-string v2, "nds"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x2f
+
+    aput-object v1, v0, v2
+
+    const-string v1, "3ds"
+
+    const-string v2, "n3ds"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x30
+
+    aput-object v1, v0, v2
+
+    const-string v1, "nintendo3ds"
+
+    const-string v2, "n3ds"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x31
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gameboy"
+
+    const-string v2, "gb"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x32
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gameboycolor"
+
+    const-string v2, "gbc"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x33
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gameboyadvance"
+
+    const-string v2, "gba"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x34
+
+    aput-object v1, v0, v2
+
+    const-string v1, "turbografx"
+
+    const-string v2, "tg16"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x35
+
+    aput-object v1, v0, v2
+
+    const-string v1, "turbografx16"
+
+    const-string v2, "tg16"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x36
+
+    aput-object v1, v0, v2
+
+    const-string v1, "turbografxcd"
+
+    const-string v2, "tg-cd"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x37
+
+    aput-object v1, v0, v2
+
+    const-string v1, "32x"
+
+    const-string v2, "sega32x"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x38
+
+    aput-object v1, v0, v2
+
+    const-string v1, "scd"
+
+    const-string v2, "segacd"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x39
+
+    aput-object v1, v0, v2
+
+    const-string v1, "segasaturn"
+
+    const-string v2, "saturn"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3a
+
+    aput-object v1, v0, v2
+
+    const-string v1, "ss"
+
+    const-string v2, "saturn"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3b
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gg"
+
+    const-string v2, "gamegear"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3c
+
+    aput-object v1, v0, v2
+
+    const-string v1, "ng"
+
+    const-string v2, "neogeo"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3d
+
+    aput-object v1, v0, v2
+
+    const-string v1, "neogeoaes"
+
+    const-string v2, "neogeo"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3e
+
+    aput-object v1, v0, v2
+
+    const-string v1, "vb"
+
+    const-string v2, "virtualboy"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x3f
+
+    aput-object v1, v0, v2
+
+    const-string v1, "ws"
+
+    const-string v2, "wonderswan"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x40
+
+    aput-object v1, v0, v2
+
+    const-string v1, "wsc"
+
+    const-string v2, "wonderswancolor"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x41
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gw"
+
+    const-string v2, "gameandwatch"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x42
+
+    aput-object v1, v0, v2
+
+    const-string v1, "msdos"
+
+    const-string v2, "dos"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x43
+
+    aput-object v1, v0, v2
+
+    const-string v1, "spectrum"
+
+    const-string v2, "zxspectrum"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x44
+
+    aput-object v1, v0, v2
+
+    const-string v1, "nintendoswitch"
+
+    const-string v2, "switch"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x45
+
+    aput-object v1, v0, v2
+
+    const-string v1, "jaguar"
+
+    const-string v2, "atarijaguar"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x46
+
+    aput-object v1, v0, v2
+
+    const-string v1, "lynx"
+
+    const-string v2, "atarilynx"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x47
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gen"
+
+    const-string v2, "genesis"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x48
+
+    aput-object v1, v0, v2
+
+    const-string v1, "smd"
+
+    const-string v2, "genesis"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x49
+
+    aput-object v1, v0, v2
+
+    const-string v1, "commodore64"
+
+    const-string v2, "c64"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x4a
+
+    aput-object v1, v0, v2
+
+    const-string v1, "scumm"
+
+    const-string v2, "scummvm"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x4b
+
+    aput-object v1, v0, v2
+
+    const-string v1, "gcgamecube"
+
+    const-string v2, "gc"
+
+    invoke-static {v1, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v1
+
+    const/16 v2, 0x4c
+
+    aput-object v1, v0, v2
+
     .line 21
     invoke-static {v0}, Lkotlin/collections/MapsKt;->mapOf([Lkotlin/Pair;)Ljava/util/Map;
 
@@ -567,7 +1035,7 @@
 .end method
 
 .method public final resolve(Ljava/lang/String;)Ljava/lang/String;
-    .locals 1
+    .locals 3
 
     const-string v0, "folderName"
 
@@ -593,10 +1061,44 @@
 
     check-cast v0, Ljava/lang/String;
 
-    if-nez v0, :cond_0
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const-string v0, "[^a-z0-9]+"
+
+    const-string v1, ""
+
+    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "replaceAll(...)"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    if-nez v1, :cond_1
 
     return-object p1
 
-    :cond_0
+    :cond_1
+    sget-object v1, Lrip/moth/cocoonshell/utils/EsdePlatformAliases;->ALIASES:Ljava/util/Map;
+
+    invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    if-eqz v1, :cond_2
+
+    return-object v1
+
+    :cond_2
     return-object v0
 .end method

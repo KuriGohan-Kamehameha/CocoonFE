@@ -508,7 +508,7 @@
 
     const/4 v2, 0x7
 
-    if-ge v1, v2, :cond_0
+    if-gt v1, v2, :cond_0
 
     .line 1690
     sget-object v0, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;

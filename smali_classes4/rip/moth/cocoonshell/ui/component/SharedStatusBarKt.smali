@@ -10140,7 +10140,7 @@
     move-object/from16 v29, v8
 
     .line 741
-    const-string v8, "Quick Settings"
+    const-string v8, "Quick Settings\nA: Open Settings\nB/Back: Close\nR: Toggle"
 
     const/4 v9, 0x0
 

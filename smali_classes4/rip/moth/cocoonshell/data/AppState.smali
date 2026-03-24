@@ -780,6 +780,8 @@
 
 .field private static final TAG:Ljava/lang/String; = "AppState"
 
+.field public static dockSize:I
+
 .field private static final activeGridInstanceId:Landroidx/compose/runtime/MutableState;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2727,6 +2729,10 @@
     invoke-direct {v0}, Lrip/moth/cocoonshell/data/AppState;-><init>()V
 
     sput-object v0, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
+
+    const/4 v0, 0x7
+
+    sput v0, Lrip/moth/cocoonshell/data/AppState;->dockSize:I
 
     .line 60
     sget-object v0, Lrip/moth/cocoonshell/ui/theme/ThemeMode;->DARK:Lrip/moth/cocoonshell/ui/theme/ThemeMode;
@@ -7300,6 +7306,157 @@
     return-object v0
 .end method
 
+.method public static initDockSize(Landroid/content/Context;)V
+    .locals 3
+
+    const-string v0, "cocoon_settings"
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "dock_size"
+
+    const/4 v2, 0x7
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+
+    move-result v0
+
+    sput v0, Lrip/moth/cocoonshell/data/AppState;->dockSize:I
+
+    return-void
+.end method
+
+.method public static cycleDockSize()V
+    .locals 7
+
+    invoke-static {}, Landroid/app/ActivityThread;->currentApplication()Landroid/app/Application;
+
+    move-result-object v0
+
+    if-nez v0, :cond_has_ctx
+
+    return-void
+
+    :cond_has_ctx
+    const-string v1, "cocoon_settings"
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v1
+
+    const-string v2, "dock_size"
+
+    const/4 v3, 0x7
+
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+
+    move-result v3
+
+    const/4 v4, 0x3
+
+    if-gt v3, v4, :cond_not_3
+
+    const/4 v3, 0x5
+
+    goto :cond_save
+
+    :cond_not_3
+    const/4 v4, 0x5
+
+    if-gt v3, v4, :cond_not_5
+
+    const/4 v3, 0x7
+
+    goto :cond_save
+
+    :cond_not_5
+    const/4 v3, 0x3
+
+    :cond_save
+    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v4
+
+    invoke-interface {v4, v2, v3}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v4
+
+    invoke-interface {v4}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    sput v3, Lrip/moth/cocoonshell/data/AppState;->dockSize:I
+
+    const/4 v5, 0x4
+
+    if-gt v3, v5, :cond_force_hide_hints
+
+    goto :cond_after_force_hide_hints
+
+    :cond_force_hide_hints
+    const-string v4, "ui_prefs"
+
+    const/4 v5, 0x0
+
+    invoke-virtual {v0, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v4
+
+    invoke-interface {v4}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v4
+
+    const-string v6, "corner_hints_enabled"
+
+    invoke-interface {v4, v6, v5}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v4
+
+    invoke-interface {v4}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    sget-object v4, Lrip/moth/cocoonshell/data/AppState;->cornerHintsEnabled:Landroidx/compose/runtime/MutableState;
+
+    invoke-static {v5}, Lkotlin/coroutines/jvm/internal/Boxing;->boxBoolean(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v6}, Landroidx/compose/runtime/MutableState;->setValue(Ljava/lang/Object;)V
+
+    :cond_after_force_hide_hints
+
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v5, "Dock size: "
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v5, ". Restart to apply."
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v5, 0x0
+
+    invoke-static {v0, v4, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Landroid/widget/Toast;->show()V
+
+    return-void
+.end method
+
 .method public final getDockApp(I)Ljava/lang/String;
     .locals 1
 
@@ -7309,7 +7466,7 @@
 
     const/4 v0, 0x7
 
-    if-ge p1, v0, :cond_0
+    if-gt p1, v0, :cond_0
 
     .line 1150
     sget-object v0, Lrip/moth/cocoonshell/data/AppState;->dockApps:Landroidx/compose/runtime/snapshots/SnapshotStateMap;
@@ -12310,7 +12467,7 @@
     :goto_0
     const/4 v3, 0x7
 
-    if-ge v2, v3, :cond_1
+    if-gt v2, v3, :cond_1
 
     .line 1117
     new-instance v3, Ljava/lang/StringBuilder;
@@ -15255,7 +15412,7 @@
 
     const/4 v1, 0x7
 
-    if-ge p1, v1, :cond_0
+    if-gt p1, v1, :cond_0
 
     .line 1130
     sget-object v1, Lrip/moth/cocoonshell/data/AppState;->dockSlotSelectingFor:Landroidx/compose/runtime/MutableIntState;
@@ -18155,7 +18312,7 @@
 
     const/4 v0, 0x7
 
-    if-ge p2, v0, :cond_1
+    if-gt p2, v0, :cond_1
 
     .line 1138
     const-string v0, "dock_prefs"
@@ -18257,7 +18414,7 @@
 
     const/4 v0, 0x7
 
-    if-ge p2, v0, :cond_0
+    if-gt p2, v0, :cond_0
 
     .line 1108
     const-string v0, "dock_prefs"

@@ -61,6 +61,9 @@
     .line 147
     invoke-super {p0, p1}, Landroidx/activity/ComponentActivity;->onCreate(Landroid/os/Bundle;)V
 
+    const/4 v0, 0x6
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->setRequestedOrientation(I)V
+
     .line 148
     move-object p1, p0
 

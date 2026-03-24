@@ -359,11 +359,15 @@
 
     move-result p0
 
+    xor-int/lit8 p0, p0, 0x1
+
     return p0
 .end method
 
 .method private static final invoke$lambda$16$lambda$15(Landroid/content/SharedPreferences;Z)Lkotlin/Unit;
     .locals 2
+
+    xor-int/lit8 p1, p1, 0x1
 
     .line 2174
     sget-object v0, Lrip/moth/cocoonshell/data/AppState;->INSTANCE:Lrip/moth/cocoonshell/data/AppState;
@@ -486,6 +490,8 @@
     .locals 1
 
     .line 2110
+    invoke-static {}, Lrip/moth/cocoonshell/data/AppState;->cycleDockSize()V
+
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
     return-object v0
@@ -1074,6 +1080,15 @@
 
     invoke-static/range {v1 .. v11}, Lrip/moth/cocoonshell/ui/component/settings/SettingsComponentsKt;->NavigationMenuItem-egy_3UM(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZZFLandroidx/compose/runtime/Composer;II)V
 
+    .line 2114
+    const-string v1, "view_week"
+
+    const-string v2, "Number of slots in dock"
+
+    const-string v5, "Cycle between 3, 5, and 7 slots"
+
+    invoke-static/range {v1 .. v11}, Lrip/moth/cocoonshell/ui/component/settings/SettingsComponentsKt;->NavigationMenuItem-egy_3UM(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZZFLandroidx/compose/runtime/Composer;II)V
+
     .line 2116
     iget-object v1, v0, Lrip/moth/cocoonshell/ui/activity/SettingsActivity$AppearanceContent$7;->$settingsRepository:Lrip/moth/cocoonshell/data/repository/SettingsRepository;
 
@@ -1467,9 +1482,9 @@
     .line 2168
     const-string v1, "info"
 
-    const-string v2, "Show Corner Hints"
+    const-string v2, "Hide Hints"
 
-    const-string v3, "Show button hints on info screens and grid"
+    const-string v3, "Hide bottom-corner X/Y hints for swap screens and menu"
 
     const/4 v7, 0x1
 

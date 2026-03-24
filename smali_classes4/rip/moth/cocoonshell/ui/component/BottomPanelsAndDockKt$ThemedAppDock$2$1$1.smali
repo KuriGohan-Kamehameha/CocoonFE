@@ -208,7 +208,7 @@
     :goto_0
     const/4 v1, 0x7
 
-    if-ge v0, v1, :cond_1
+    if-gt v0, v1, :cond_1
 
     .line 491
     iget-object v1, p0, Lrip/moth/cocoonshell/ui/component/BottomPanelsAndDockKt$ThemedAppDock$2$1$1;->$prefs:Landroid/content/SharedPreferences;

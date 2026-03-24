@@ -248,7 +248,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_0
+    goto :cond_0
 
     .line 302
     new-instance v0, Landroid/content/Intent;
@@ -1981,6 +1981,9 @@
 
     .line 230
     invoke-super {p0, p1}, Landroidx/activity/ComponentActivity;->onCreate(Landroid/os/Bundle;)V
+
+    const/4 v0, 0x6
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->setRequestedOrientation(I)V
 
     .line 235
     sget-object p1, Lrip/moth/cocoonshell/MainActivity;->instance:Lrip/moth/cocoonshell/MainActivity;

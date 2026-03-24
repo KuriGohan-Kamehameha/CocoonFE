@@ -182,7 +182,7 @@
     goto/16 :goto_5
 
     :cond_3
-    const/4 p1, 0x4
+    const/4 p1, 0x7
 
     if-ge p2, p1, :cond_4
 
